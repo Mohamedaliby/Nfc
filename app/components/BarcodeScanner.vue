@@ -37,9 +37,6 @@ export default {
     };
   },
   methods: {
-    changeRoute() {
-      this.$navigateTo(this.$routes["barcodeScannerResult"], {});
-    },
     onScanResult(evt) {
       this.$navigateTo(this.$routes["barcodeScannerResult"], {
         props: evt
